@@ -1,0 +1,11 @@
+import sys
+if len(sys.argv) != 3:
+    print("none")
+else:
+    try:
+        start = int(sys.argv[1])
+        end = int(sys.argv[2])
+        range_values = list(range(start, end))
+        print(range_values)
+    except ValueError:
+        print("none")
