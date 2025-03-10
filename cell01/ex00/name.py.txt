@@ -1,0 +1,3 @@
+first_name = "Jittakupt"
+last_name = "Saejong"
+print(first_name, last_name)
