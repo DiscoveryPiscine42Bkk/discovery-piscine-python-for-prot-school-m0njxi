@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+import math
+num = float(input("Enter a number: 9.5 "))
+rounded_up = math.ceil(num)
+print(f"The number rounded up is: {rounded_up}")
