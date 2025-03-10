@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+while True:
+    user_input = input("Enter something (or type 'STOP' to quit): ")
+    if user_input == "STOP":
+        print("Stopping the program...")
+        break
+    print(f"You entered: {user_input}")
