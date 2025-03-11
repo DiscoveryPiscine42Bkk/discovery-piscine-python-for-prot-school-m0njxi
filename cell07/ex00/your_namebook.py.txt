@@ -1,0 +1,11 @@
+
+names = {
+    "john": "doe",
+    "john": "smith",
+    "bob": "brown",
+    "bob": "white"
+}
+
+full_names = [f"{first.capitalize()} {last.capitalize()}" for first, last in names.items()]
+
+print(full_names)
