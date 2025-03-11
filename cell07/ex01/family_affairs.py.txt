@@ -1,0 +1,13 @@
+# family_affairs.py
+
+# สมาชิก
+dupont_family = {
+    "florian": "red",
+    "marie": "blond",
+    "virginie": "brunette",
+    "david": "red",
+    "franck": "red"
+}
+# ใช้ filteพหาชื่อของคนที่มีผมสีแดง
+redheads = list(filter(lambda name: dupont_family[name] == "red", dupont_family))
+print(redheads)
