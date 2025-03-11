@@ -1,0 +1,24 @@
+# help_your_professor.py
+
+# คะแนนนร.แต่ละห้อง
+class_3B = {
+    "marine": 18,
+    "jean": 15,
+    "coline": 8,
+    "luc": 9
+}
+
+class_3C = {
+    "quentin": 17,
+    "julie": 15,
+    "marc": 8,
+    "stephanie": 13
+}
+
+# คำนวณค่าเฉลี่ยของคะแนนในห้อง
+average_3B = sum(class_3B.values()) / len(class_3B)
+average_3C = sum(class_3C.values()) / len(class_3C)
+
+# แสดงผลค่าเฉลี่ยของแต่ละห้อง
+print(f"Average for class 3B: {average_3B}.")
+print(f"Average for class 3C: {average_3C}.")
