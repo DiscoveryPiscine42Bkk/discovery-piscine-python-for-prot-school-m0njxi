@@ -1,0 +1,7 @@
+def add_one(x):
+    x += 1 
+    return x 
+my_variable = 5
+print("Before calling add_one:", my_variable)
+my_variable = add_one(my_variable)
+print("After calling add_one:", my_variable)
