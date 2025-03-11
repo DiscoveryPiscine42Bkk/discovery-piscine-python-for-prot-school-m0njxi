@@ -1,0 +1,15 @@
+import sys
+def shrink(input_string):
+    print(input_string[:8])
+def enlarge(input_string):
+    print(input_string.ljust(8, 'Z'))
+if len(sys.argv) < 2:
+    print("none")
+else:
+    for arg in sys.argv[1:]:
+        if len(arg) > 8:
+            shrink(arg)
+        elif len(arg) < 8:
+            enlarge(arg)
+        else:
+            print(arg)
